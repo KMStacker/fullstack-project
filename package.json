@@ -12,6 +12,7 @@
     "start": "npm start --prefix backend",
     "create-admin": "npm run create-admin --prefix backend",
     "seed-db": "npm run seed-db --prefix backend",
+    "prettier": "prettier --check .",
     "format": "prettier --write .",
     "lint": "npm run lint --prefix backend && npm run lint --prefix frontend",
     "lint:fix": "npm run lint:fix --prefix backend && npm run lint:fix --prefix frontend"
